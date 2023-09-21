@@ -81,11 +81,11 @@ on:
         description: 'upload firmware to anonfiles'
         default: 'false'
 env:
-  REPOSITORY_URL: https://github.com/vb1980/padavan-4.4.git
-  WORK_PATH: /opt/padavan-4.4
+  REPOSITORY_URL: https://github.com/artlivies/Padavan-KVR.git
+  WORK_PATH: /opt/Padavan-KVR
   TIME_ZONE: Asia/Shanghai
   FIRMWARE_DATEPREFIX: $(date +"%Y%m%d")
-  FIRMWARE_AUTHOR: vb1980
+  FIRMWARE_AUTHOR: PP2014
   FIRMWARE_PATH: /opt/firmwares
 jobs:
   build:
